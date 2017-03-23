@@ -12,7 +12,12 @@ for converting your data).
 Usage
 =====
 
+You can used the pre-built [image](https://hub.docker.com/r/ylep/neuroglancer/)
+from Docker Hub, or build the image yourself (see
+[below](#building-a-custom-image)):
+
 ```
+docker pull ylep/neuroglancer
 docker run --name neuroglancer -v <data-volume>:/precomputed:ro -p 8080:80 -d ylep/neuroglancer
 ```
 
