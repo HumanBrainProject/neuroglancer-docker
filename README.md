@@ -2,7 +2,7 @@ Web server for Neuroglancer and pre-computed images
 ===================================================
 
 This Docker image will run an *nginx* web server, serving
-[Neuroglancer](https://github.com/HumanBrainProject/neuroglancer) at the root.
+[Neuroglancer](https://github.com/ylep/neuroglancer) at the root.
 It will also serve images in the Neuroglancer pre-computed chunk format, if
 they are provided under `/precomputed` (see
 [neuroglancer-scripts](https://github.com/HumanBrainProject/neuroglancer-scripts)
