@@ -49,6 +49,6 @@ Then, from this repository, copy the compiled Neuroglancer files, and build the
 Docker image:
 
 ```
-cp -r <neuroglancer-repo>/build/min neuroglancer
+cp -r <neuroglancer-repo>/dist/min neuroglancer
 docker build -t neuroglancer-custom .
 ```
